@@ -20,7 +20,7 @@ A modern, feature-rich Bible reading application built with Flutter, designed to
 ## Screenshots
 
 ### Theme Settings
-
+![Theme Settings](Screenshot_2025-08-19-18-43-03-829_com.example.bible.jpg)
 The theme customization interface allows users to switch between light and dark modes. The toggle switch provides visual feedback when changing themes, and the interface maintains consistency across both modes.
 
 ### Book Selection
