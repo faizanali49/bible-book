@@ -20,19 +20,24 @@ A modern, feature-rich Bible reading application built with Flutter, designed to
 ## Screenshots
 
 ### Theme Settings
-![Theme Settings](Screenshot_2025-08-19-18-43-03-829_com.example.bible.jpg)
+![Screenshot_2025-08-19-18-43-03-829_com example bible](https://github.com/user-attachments/assets/b5cd279d-bf11-44e4-84c4-09b17265dbed)
+
 The theme customization interface allows users to switch between light and dark modes. The toggle switch provides visual feedback when changing themes, and the interface maintains consistency across both modes.
 
 ### Book Selection
-![Book Selection](Screenshot_2025-08-19-18-43-28-591_com.example.bible.jpg)
+![Screenshot_2025-08-20-16-37-50-767_com example bible](https://github.com/user-attachments/assets/3f82efa3-d751-4b1d-9ec3-434ebcbe6913)
 The main book selection screen displays all books of the Bible in an organized list. Each book is represented by a tile with a navigation arrow, allowing users to access chapters. The green color scheme provides a calming, spiritual aesthetic.
 
 ### Chapter Selection
-![Chapter Selection](Screenshot_2025-08-19-18-43-34-687_com.example.bible.jpg)
+![Screenshot_2025-08-20-16-37-50-767_com example bible](https://github.com/user-attachments/assets/751ef09e-f938-4ea4-ba7f-2b50b17776d4)
+
 When a book is selected, the chapter selection interface appears. Chapters are presented in a grid layout with numbered buttons for easy navigation. The modal design ensures focus remains on chapter selection while maintaining context of the previous screen.
 
 ### Verse Reading
-![Verse Reading](Screenshot_2025-08-19-18-43-39-204_com.example.bible.jpg)
+![Screenshot_2025-08-19-18-43-34-687_com example bible](https://github.com/user-attachments/assets/8ecf57e7-83d1-4a9d-96af-33b9ad3c9907)
+
+![Screenshot_2025-08-19-18-43-39-204_com example bible](https://github.com/user-attachments/assets/367388b4-16d1-412a-8eed-3dd2e83192fd)
+
 The verse reading interface displays scripture content in a clean, readable format. Users can adjust font size for optimal readability, and navigation controls allow easy movement between verses. The green text container enhances readability while maintaining the app's visual identity.
 
 ## Technical Implementation
