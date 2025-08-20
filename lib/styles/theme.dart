@@ -12,8 +12,11 @@ class AppColor {
       ? const Color.fromARGB(122, 71, 147, 114)
       : const Color.fromARGB(115, 71, 147, 114);
   Color get background => isDarkMode
-      ? const Color.fromARGB(255, 28, 24, 24)
-      : const Color.fromARGB(255, 71, 147, 114);
+      ? const Color.fromRGBO(28, 24, 24, 1)
+      : const Color.fromARGB(255, 37, 134, 102);
+  Color get background2 => isDarkMode
+      ? const Color.fromRGBO(28, 24, 24, 1)
+      : const Color.fromARGB(255, 67, 172, 128);
   Color get textColor =>
       isDarkMode ? backgroundL : const Color.fromARGB(255, 255, 254, 254);
   Color get appBarColor => isDarkMode ? primaryL : primaryD;

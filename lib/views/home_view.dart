@@ -122,7 +122,7 @@ class HomeScreen extends ConsumerWidget {
               ),
               Container(
                 decoration: BoxDecoration(
-                  color: appColor.searchBarBackground.withValues(alpha: 0.4),
+                  color: appColor.searchBarBackground.withValues(alpha: 0.6),
                   borderRadius: BorderRadius.circular(15.0),
                   boxShadow: [
                     BoxShadow(
@@ -192,7 +192,9 @@ class HomeScreen extends ConsumerWidget {
                             ),
                             padding: const EdgeInsets.all(16.0),
                             decoration: BoxDecoration(
-                              color: appColor.background,
+                              color: appColor.background2.withValues(
+                                alpha: 0.6,
+                              ),
                               borderRadius: BorderRadius.circular(10.0),
                               boxShadow: [
                                 BoxShadow(
@@ -205,6 +207,10 @@ class HomeScreen extends ConsumerWidget {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
+                                Icon(
+                                  Icons.book_rounded,
+                                  color: appColor.textColor,
+                                ),
                                 Text(
                                   fruits[index],
                                   style: TextStyle(
